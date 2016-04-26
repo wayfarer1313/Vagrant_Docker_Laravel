@@ -1,0 +1,20 @@
+version: '2'
+services:
+  web:
+    build: .
+    ports:
+      - "80:80"
+    depends_on:
+      - db
+    volumes:
+      - ./src:/var/www/html 
+  db:
+    image: mysql
+    volumes:
+#     - mysql:/var/lib/mysql
+      - ./data/mysql:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+
+#volumes:
+# mysql:
