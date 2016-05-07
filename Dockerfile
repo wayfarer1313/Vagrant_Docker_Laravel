@@ -1,3 +1,3 @@
-FROM php:apache
-COPY src/ /var/www/html/
+FROM eboraas/laravel
+# COPY src/ /var/www/laravel/public
 # COPY config/php.ini /usr/local/etc/php/

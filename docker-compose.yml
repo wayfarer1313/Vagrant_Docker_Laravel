@@ -7,14 +7,11 @@ services:
     depends_on:
       - db
     volumes:
-      - ./src:/var/www/html 
+      - ./src:/var/www/laravel 
   db:
     image: mysql
     volumes:
-#     - mysql:/var/lib/mysql
-      - ./data/mysql:/var/lib/mysql
+      - ./data/:/var/lib/mysql
+#      - ./data/mysql:/mysql
     environment:
       - MYSQL_ROOT_PASSWORD=password
-
-#volumes:
-# mysql:
