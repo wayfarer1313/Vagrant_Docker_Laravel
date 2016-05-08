@@ -9,7 +9,7 @@
 
 <br>
 ## Setup
-1. Run ````git clone https://github.com/MetalCowRobotics/Vagrant_Docker-LAMP.git```` in the Directory you want to Create your Project Directory in
+1. Run ````git clone https://github.com/MetalCowRobotics/Vagrant_Docker-LAMP.git```` or Download this Repo to the Directory you want to Create your Project Directory in
 2. Change the name of the ````Vagrant_Docker-LAMP```` Directory to ````Your Project Name````
 3. Enter the Directory
 4. Run ````vagrant up````
