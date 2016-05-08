@@ -4,6 +4,8 @@
 ## Pre-Requisites
 - Have [Virtual Box](https://www.virtualbox.org) installed
 - Have [Vagrant](https://www.vagrantup.com) installed
+- Have [Git](https://git-scm.com/downloads) installed ( Windows )
+- Have Virtualization Technology Enabled in the BIOS ( Windows / Linux )
 
 <br>
 ## Setup
@@ -13,6 +15,8 @@
 4. Run ````vagrant up````
 5. Wait for the VM to Start Up ....
 6. Happy Coding + Testing
+
+( Windows Users : Using Git Shell is Recommended )
 
 <br>
 ## General How to Use
