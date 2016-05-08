@@ -16,7 +16,7 @@
 
 <br>
 ## General How to Use
-Follow the Setup Above. Then change whatever you would like in the ````src```` directory. It is currently a Laravel Project. Then in your browser open  [localhost:8080](localhost:8080) or [127.0.0.1:8080](127.0.0.1:8080) to see the live web pages.
+Follow the Setup Above. Then change whatever you would like in the ````src```` directory. It is currently a Laravel Project. Then in your browser open  [localhost:8080](http://localhost:8080) or [127.0.0.1:8080](http://127.0.0.1:8080) to see the live web pages.
 
 <br>
 ## Files
